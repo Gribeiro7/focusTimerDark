@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+}
+
+header {
+    position: absolute;
+    height: 200px;
+}
+
+.sol, .lua {
+    margin: 60px 60px 616px 1476px;
+
+}
+
+ main {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    margin-right: 207px;
+}
+
+#timer {
+    display: flex;
+
+    font-family: 'Roboto';
+    font-size: 126px;
+    font-style: normal;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #323238;
+}
+
+#controls {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hide {
+    display: none;
+}
+
+#sounds {
+	display: grid;
+	grid-template-columns: 140px 140px;
+    gap: 32px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}
+
+/*dark mode */
+
+.bodyDark {
+    background-color: #121214;
+}
+
+.timerDark {
+    color: white;
+}
+
+.controlsDark {
+    filter: invert(1);
+}
+
+.controlsWhite {
+    background-color: transparent;
+}
+
+.soundDark {
+    filter: invert(60%) sepia(0%) saturate(150%) hue-rotate(6645deg) brightness(98%) contrast(270%);
+}
+
+.soundWhite {
+    background-color: transparent;
+}
+
+
+
+
